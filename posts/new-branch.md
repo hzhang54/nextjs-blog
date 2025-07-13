@@ -12,6 +12,7 @@ date: '2025-07-13'
 - Git hub UI: Click **Pull request** in your repository, select your branch, and create a PR.
 - Preview the deployment: Vercel automatically creates a preview depolyment for the PR.  Review it at the URL provided in the PR details.
 - merge the PR: Once satisfied, merge the PR to the main branch through the github UI or
+**git pull origin master**
 **git checkout main** to switch to the main branch
 **git merge new-brach** to merge it
 **git push origin main** to push the updated main branch to github
