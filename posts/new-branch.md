@@ -12,9 +12,10 @@ date: '2025-07-13'
 - Git hub UI: Click **Pull request** in your repository, select your branch, and create a PR.
 - Preview the deployment: Vercel automatically creates a preview depolyment for the PR.  Review it at the URL provided in the PR details.
 - merge the PR: Once satisfied, merge the PR to the main branch through the github UI or
-**git checkout main** to switch to the main branch
-**git merge new-brach** to merge it
-**git push origin main** to push the updated main branch to github
+-- **git pull origin main**
+-- **git checkout main** to switch to the main branch
+-- **git merge new-brach** to merge it
+-- **git push origin main** to push the updated main branch to github
 - Deploy to production: Vercel auto-deploys the main branch.  Monitor the deployment on the Vercel dashboard.
 We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
  
